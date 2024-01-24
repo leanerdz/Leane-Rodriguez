@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no,height=device-height"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" initial-scale=1, maximum-scale=1>
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/page1.css">
+  <link rel="stylesheet" href="../css/nav.css">  
+  <link rel="stylesheet" href="../css/footer.css">  
+  <link rel="stylesheet" href="../css/transition.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="transition_page" class=" transition active"></div>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+        <div class="menu-items">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="titre">WorkShop N°1 </div>
+  </header>
+  <div id="carroussel">
+    <button id="prevBtn"><img class="arrows" src="../arrow_back.png" alt=""></button>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="../chapitre_2/accueil.png" alt="Image 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="../chapitre_2/aliens.png" alt="Image 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="../chapitre_2/contact.png" alt="Image 3">
+      </div>
+    </div>
+    <button id="nextBtn"><img class="arrows" src="../arrow_forward.png" alt=""></button>
+  </div>
+  <div id="text">
+    <div id="title"><p>Description du projet </p></div>
+    <p>Ce projet consistait a créer un "détécteur d'alien". Dans la consigne il y avais des conditions  pour determiner si quelqu'un est un alien ou non. Par exemple si on met plus de 400ms pour cliqsuer sur un carré qui apparait aléatoirement on est un alien. 
+    <br>
+    Cet exercice nous a fait utiliser l'IA, la manipulation de l'image et la manipulation du son en javascript.  
+    </p>
+    <br>
+    <br>
+    <br>
+  </div>
+  <footer>
+    <p>Copyright &copy; Novembre 2022 Léane RODRIGUEZ</p>
+</footer>
+  <script src="../js/carroussel.js"></script>
+  <script src="../js/transition.js"></script>
+
+</body>
+</html>

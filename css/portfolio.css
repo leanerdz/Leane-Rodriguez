@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+#titre {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: clamp(10px, 7vw, 15px);
+    
+}
+.name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 400%;
+    color: #000000;
+}
+#dolfin{
+    filter: invert(90%);
+}
+#pie{
+    filter: grayscale(1);
+    margin-top: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #E3DDCF;
+}
+.gallery-item p{
+    text-align: center;
+}
+.gallery-item:hover {
+    opacity: 50%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,10 @@
+#cv{
+    width: 50%;
+    height: 50%;
+}
+
+#image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
